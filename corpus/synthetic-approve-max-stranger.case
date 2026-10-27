@@ -1,0 +1,6 @@
+source: synthetic
+note: unlimited approve to an address nobody trusts
+expect: high
+flags: UNLIMITED_AMOUNT UNTRUSTED_SPENDER
+trusted: 0x1111111111111111111111111111111111111111
+calldata: 0x095ea7b30000000000000000000000009999999999999999999999999999999999999999ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff

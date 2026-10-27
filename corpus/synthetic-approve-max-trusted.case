@@ -1,0 +1,6 @@
+source: synthetic
+note: unlimited approve to a trusted router: worth a look, not an alarm
+expect: review
+flags: UNLIMITED_AMOUNT
+trusted: 0x1111111111111111111111111111111111111111
+calldata: 0x095ea7b30000000000000000000000001111111111111111111111111111111111111111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff

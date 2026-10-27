@@ -1,0 +1,6 @@
+source: synthetic
+note: a selector this crate does not know: cannot vouch
+expect: undecodable
+error: UnknownSelector
+trusted: 0x1111111111111111111111111111111111111111
+calldata: 0xdeadbeef0000000000000000000000000000000000000000000000000000000000000001
